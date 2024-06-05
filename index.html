@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayra Mode & Style</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .social-icons a {
+            margin: 0 0.5rem;
+            color: white;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hayra Mode & Style</h1>
+        <p>Empowering Your Style with Virtue</p>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#portfolio">Portfolio & Projects</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a modern Muslim woman passionate about dressing up for mood and incorporating various health habits into my daily routine. These habits include meditation, reading, skincare, hydration, and more. Welcome to my space where I share my journey and inspirations.</p>
+        <p>The name "Hayra" means goodness or virtue, reflecting the positive qualities and moral values that I strive to embody in my life and share through my brand.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio & Projects</h2>
+        <div class="portfolio">
+            <!-- Example Project -->
+            <div class="project">
+                <h3>Project Title</h3>
+                <p>Description of the project. This could be about fashion designs, health routines, or any other relevant projects.</p>
+                <img src="https://via.placeholder.com/800x400" alt="Project Image">
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Welcome to my blog! Here, I share my thoughts on various topics including fashion, health, and personal growth. Stay tuned for updates!</p>
+        <!-- Example Blog Post -->
+        <article class="blog-post">
+            <h3>Blog Post Title</h3>
+            <p>Snippet of the blog post content. Click to read more.</p>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hayra Mode & Style</p>
+        <div class="social-icons">
+            <a href="https://www.youtube.com/channel/your-channel-id" target="_blank">&#x1F4FA;</a>
+        </div>
+    </footer>
+</body>
+</html>
